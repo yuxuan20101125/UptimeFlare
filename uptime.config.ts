@@ -6,9 +6,7 @@
 import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 
 const pageConfig: PageConfig = {
-  // Title for your status page
   title: "探针",
-  // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/yuxuan20101125/UptimeFlare', label: 'GitHub' },
     { link: 'https://amns.de5.net/', label: 'Blog' },
@@ -18,13 +16,11 @@ const pageConfig: PageConfig = {
 
 const workerConfig: WorkerConfig = {
   // Define all your monitors here
-  monitors: [
-    // Example HTTP Monitor
-    {
+  monitors: [    {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'foo_monitor',
       // `name` is used at status page and callback message
-      name: 'My API Monitor',
+      name: '11111',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
@@ -62,9 +58,9 @@ const workerConfig: WorkerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: '1.2.3.4:22',
-      tooltip: 'My production server SSH',
-      statusPageLink: 'https://example.com',
+      target: '1.1.1.1:80',
+      tooltip: 'My',
+      statusPageLink: 'https://bing.com',
       timeout: 5000,
     },
   ],
