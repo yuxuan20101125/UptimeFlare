@@ -37,9 +37,9 @@ const workerConfig: WorkerConfig = {
       id: 'moemail', // 更改为唯一的ID
       name: '邮箱2',
       method: 'GET',
-      target: 'https://mlhk.de5.net/',
+      target: 'https://mlhk.de5.net/zh-CN/',
       tooltip: '我的邮箱',
-      statusPageLink: 'https://mlhk.de5.net/',
+      statusPageLink: 'https://mlhk.de5.net/zh-CN/',
     },
     {
       id: 'proxy', // 更改为唯一的ID
