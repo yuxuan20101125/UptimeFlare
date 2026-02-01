@@ -25,6 +25,14 @@ const workerConfig: WorkerConfig = {
       tooltip: '我的博客',
       statusPageLink: 'https://amns.de5.net',
     },
+    {
+      id: 'vmail', // 更改为唯一的ID
+      name: '邮箱1',
+      method: 'GET',
+      target: 'https://2825628257.de5.net/',
+      tooltip: '我的邮箱',
+      statusPageLink: 'https://2825628257.de5.net/',
+    },
   ],
   // [Optional] Notification settings
   notification: {
