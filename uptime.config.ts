@@ -6,7 +6,7 @@
 import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 
 const pageConfig: PageConfig = {
-  title: "探针",
+  title: "网站探针",
   links: [
     { link: 'https://github.com/yuxuan20101125/UptimeFlare', label: 'GitHub' },
     { link: 'https://amns.de5.net/', label: 'Blog' },
@@ -56,7 +56,7 @@ const workerConfig: WorkerConfig = {
     // More info at Wiki: https://github.com/lyc8503/UptimeFlare/wiki/Setup-notification
     webhook: {
       // [Required] webhook URL (example: Telegram Bot API)
-      url: 'https://api.telegram.org/bot123456:ABCDEF/sendMessage',
+      url: 'https://sms.liuyyds.dpdns.org/api-sms-receive.php?token=cuY36D8XtAiEvbiIrKQZ7bV1x9SJz02j7S2jVj5y3mrW0pcQ',
       // [Optional] HTTP method, default to 'GET' for payloadType=param, 'POST' otherwise
       // method: 'POST',
       // [Optional] headers to be sent
@@ -103,12 +103,12 @@ const maintenances: MaintenanceConfig[] = [
     // Description of the maintenance, will be shown at status page
     body: 'This is a test maintenance, server software upgrade',
     // Start time of the maintenance, in UNIX timestamp or ISO 8601 format
-    start: '2020-01-01T00:00:00+08:00',
+    start: '2026-01-01T00:00:00+08:00',
     // [Optional] end time of the maintenance, in UNIX timestamp or ISO 8601 format
     // if not specified, the maintenance will be considered as on-going
-    end: '2050-01-01T00:00:00+08:00',
+    end: '2030-01-01T00:00:00+08:00',
     // [Optional] color of the maintenance alert at status page, default to "yellow"
-    color: 'blue',
+    color: 'green',
   },
 ]
 
