@@ -49,6 +49,14 @@ const workerConfig: WorkerConfig = {
       tooltip: '网页代理',
       statusPageLink: 'https://proxy.sbcnm.dpdns.org//',
     },
+    {
+      id: 'sms', // 更改为唯一的ID
+      name: '接码平台',
+      method: 'GET',
+      target: 'https://sms.liuyyds.dpdns.org/index.php',
+      tooltip: '接码平台',
+      statusPageLink: 'https://sms.liuyyds.dpdns.org/index.php',
+    },
   ],
   // [Optional] Notification settings
   notification: {
